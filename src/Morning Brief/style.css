@@ -1,0 +1,39 @@
+.post_text {
+    padding-left: 20px;
+}
+
+.authorImg {
+    max-width: 120px;
+}
+.desktop-border {
+    border-right: 1px solid #DBDBDB;
+  }
+@media (max-width:480px){
+    .body{
+        padding-left:10px !important;
+        padding-right:10px !important;
+    }
+    .mobile_hide {
+        display: none !important;
+    }
+    .desktop-border {
+        border-bottom: 1px solid #DBDBDB;
+    }
+    .post_text{
+        padding-left: 0px !important;
+    }
+    .authorImg {
+        display:inline-block !important;
+        width: 60px !important;
+        min-width: 60px !important;
+        max-width: 60px !important;
+        padding-left:20px !important ;
+    }
+    .email_button {
+        padding-bottom:20px !important;
+    }
+    .email_text {
+        padding-top:20px !important ;
+    }
+
+}

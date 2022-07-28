@@ -15,12 +15,16 @@ import {
   MjmlText
 } from 'mjml-react';
 
-export const generate = () => {
+const css = readFileSync('./assets/styles.css').toString();
+
+export const generate_Bn = () => {
   return (
     <Mjml>
       <MjmlHead>
         <MjmlTitle>Last Minute Offer</MjmlTitle>
         <MjmlPreview>Last Minute Offer...</MjmlPreview>
+        <MjmlStyle>{css}</MjmlStyle>
+        
       </MjmlHead>
       <MjmlBody width={500}>
         <MjmlSection fullWidth backgroundColor="#efefef">
@@ -31,13 +35,21 @@ export const generate = () => {
         <MjmlSection>
           <MjmlColumn>
             <MjmlButton padding="20px" backgroundColor="#346DB7" href="https://www.wix.com/">
-              This Yet Another Template
+              I like it!
             </MjmlButton>
           </MjmlColumn>
         </MjmlSection>
         <MjmlSection>
+          <MjmlColumn cssClass="blue-column">
+            <MjmlText>I am blue</MjmlText>
+          </MjmlColumn>
+          <MjmlColumn cssClass="red-column">
+            <MjmlText>I am red</MjmlText>
+          </MjmlColumn>
+        </MjmlSection>
+        <MjmlSection>
           <MjmlColumn>
-            <MjmlText><a href="/">Go Back</a></MjmlText>
+            <MjmlText><a href="/2">Open Second Template</a></MjmlText>
           </MjmlColumn>
         </MjmlSection>
       </MjmlBody>

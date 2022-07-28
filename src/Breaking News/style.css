@@ -1,0 +1,14 @@
+.desktop-border {
+    border-right: 1px solid #DBDBDB;
+  }
+@media (max-width:480px) {
+    .desktop-border {
+        border-bottom: 1px solid #DBDBDB;
+    }
+    .email_button {
+        padding-bottom:20px !important;
+    }
+    .email_text {
+        padding-top:20px !important ;
+    }
+  }

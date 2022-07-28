@@ -2,7 +2,7 @@
   "name": "mjml-react-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "build": "babel src --out-dir dist",
     "build:watch": "babel src --out-dir dist --watch",

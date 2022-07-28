@@ -1,0 +1,21 @@
+.post_text {
+    padding-left: 20px;
+}
+@media (max-width:480px){
+    .body{
+        padding-left:10px !important;
+        padding-right:10px !important;
+    }
+    .mobile_hide {
+        display: none !important;
+    }
+    
+    .post_text{
+        padding-left: 0px !important;
+    }
+
+    .post_image{
+        padding-right: 10px !important;
+
+    }
+}

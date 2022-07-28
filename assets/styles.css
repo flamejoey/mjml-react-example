@@ -1,7 +1,10 @@
-.red {
-  color: red;
-}
-
-.blue {
-  color: blue;
+@media (max-width:620px) {
+  .fwImage {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+  .postImage {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
 }
